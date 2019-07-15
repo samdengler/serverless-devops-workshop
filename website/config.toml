@@ -1,0 +1,29 @@
+baseURL = "http://cdonaws.s3-website-us-west-2.amazonaws.com/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Continuous Deployment on AWS Workshop"
+theme = "learn"
+uglyurls = true
+sectionPagesMenu = "main"
+pygmentsCodeFences = true
+pygmentsStyle = "monokai"
+
+[params]
+themeVariant = "mine"
+showVisitedLinks = false
+author = "AWS_Germany"
+description = "Continuous Deployment on AWS Workshop"
+disableSearch = true
+disableAssetsBusting = true
+disableLanguageSwitchingButton = true
+disableShortcutsTitle = true
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-twitter fa-lg'></i> @AWS_Germany"
+identifier = "mm"
+url = "https://twitter.com/AWS_Germany"
+weight = 1
+
+[outputs]
+home = [ "HTML", "AMP", "RSS", "JSON"]
+page = [ "HTML", "AMP"]
